@@ -3,11 +3,11 @@ This is a tutorial for MSBuild, namely Microsoft Build Engine, is a platform for
 
 ## Hello World
 ### Most Basic Project structure
-> <?xml version="1.0" encoding="utf-8"?> 
-> <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"> 
-> 	
-> </Project> 
-
+```xml
+<?xml version="1.0" encoding="utf-8"?> 
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"> 
+</Project> 
+```
 - Project: Define a top level project node.
   * DefaultTargets: Attribute used to define your build targets, more targes are separated by semi-colon(;)
 - Target: Define your target. 
